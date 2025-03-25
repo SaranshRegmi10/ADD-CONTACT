@@ -56,7 +56,7 @@ function App() {
         <EditContact {...props} updateContactHandler= {updateContactHandler}/>)}
         />
 
-        <Route path='/contact/:id' Component={}/>
+        <Route path='/contact/:id'/>
         </Switch>
           <ContactList contacts = {contacts} getContactId = {removeContactHandler}/> */}
       </Router>
